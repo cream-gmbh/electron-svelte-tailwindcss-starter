@@ -1,0 +1,44 @@
+{
+  "name": "svelte-tailwindcss-electron-starter",
+  "version": "1.0.0",
+  "main": "./src/electron.js",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.5",
+    "@rollup/plugin-replace": "^2.3.0",
+    "autoprefixer": "^9.7.4",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^7.0.26",
+    "postcss-import": "^12.0.1",
+    "rollup": "^1.29.1",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-generate-html-template": "^1.6.0",
+    "rollup-plugin-livereload": "^1.0.4",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.0.4",
+    "rollup-plugin-svelte": "^5.1.1",
+    "rollup-plugin-terser": "^5.2.0",
+    "svelte": "^3.17.2",
+    "sirv-cli": "^0.4.5",
+    "tailwindcss": "^1.1.4",
+    "electron": "^7.1.11",
+    "chokidar": "^3.3.1",
+    "cross-env": "^7.0.0"
+  },
+  "dependencies": {
+    "save-dev": "0.0.1-security",
+    "svelte-preprocess": "^3.3.0"
+  },
+  "scripts": {
+    "electron-dev": "run-p dev pure-electron-dev",
+    "pure-electron-dev": "cross-env NODE_ENV=development electron .",
+    "electron": "run-s build pure-electron",
+    "pure-electron": "electron .",
+    "build": "rollup -c",
+    "autobuild": "rollup -c -w",
+    "dev": "run-p start:dev autobuild",
+    "start": "sirv public --single",
+    "start:dev": "sirv public --single --dev"
+  }
+}

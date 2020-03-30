@@ -1,0 +1,22 @@
+/* purgecss start ignore */
+@import "tailwindcss/base";
+/* purgecss end ignore */
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* purgecss start ignore */
+
+/* --- Desktop / All --- */
+html, body {
+    height            : 100%;
+    background-color  : #ffffff;
+}
+
+/* --- Mobile (smartphones, touchscreens) --- */
+@media (hover : none) and (pointer : coarse) {
+    html, body {
+        overflow : hidden;
+        }
+    }
+    
+/* purgecss end ignore */
