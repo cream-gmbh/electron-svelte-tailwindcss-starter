@@ -2,7 +2,8 @@
 
 A very basic Electron starter implementing Svelte and TailwindCSS for reactive frontend + Rollup as module bundler.
 
-Classified as "working work in progress", not yet "publish-ready".
+Classified as "working work in progress", not yet "publish-ready". Aiming to bring it closer to the app-publish-point in future and create 
+corresponding npm package when ready. 
 
 ### Installation
 
@@ -17,3 +18,5 @@ npm run electron-dev
 ```
 
 or one of the other npm scripts, see package.json.
+
+Happy electron tailwind svelting! 😎
