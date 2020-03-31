@@ -12,11 +12,4 @@ html, body {
     background-color  : #ffffff;
 }
 
-/* --- Mobile (smartphones, touchscreens) --- */
-@media (hover : none) and (pointer : coarse) {
-    html, body {
-        overflow : hidden;
-        }
-    }
-    
 /* purgecss end ignore */
