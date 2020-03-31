@@ -1,6 +1,8 @@
-# svelte-tailwindcss-electron-starter
+# electron-svelte-tailwindcss-starter
 
-A very basic Electron starter implementing Svelte and TailwindCSS for reactive frontend. Work in progress, not yet "publish-ready".
+A very basic Electron starter implementing Svelte and TailwindCSS for reactive frontend + Rollup as module bundler.
+
+Classified as "working work in progress", not yet "publish-ready".
 
 ### Installation
 

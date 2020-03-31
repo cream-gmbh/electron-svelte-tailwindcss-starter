@@ -1,6 +1,6 @@
 {
-  "name": "cream-dev-svelte-tailwindcss-electron-starter",
-  "description": "A very basic Electron starter implementing Svelte and TailwindCSS for reactive frontend.",
+  "name": "electron-svelte-tailwindcss-starter",
+  "description": "A very basic Electron starter implementing Svelte and TailwindCSS for reactive frontend + Rollup as module bundler.",
   "version": "1.0.1",
   "main": "./src/electron.js",
   "devDependencies": {
@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cream-gmbh/cream-dev-svelte-tailwindcss-electron-starter.git"
+    "url": "https://github.com/cream-gmbh/electron-svelte-tailwindcss-starter.git"
   },
   "keywords": [
     "Electron",
@@ -52,7 +52,7 @@
   "author": "Vatroslav Vrbanic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cream-gmbh/cream-dev-svelte-tailwindcss-electron-starter/issues"
+    "url": "https://github.com/cream-gmbh/electron-svelte-tailwindcss-starter/issues"
   },
-  "homepage": "https://github.com/cream-gmbh/cream-dev-svelte-tailwindcss-electron-starter"
+  "homepage": "https://github.com/cream-gmbh/electron-svelte-tailwindcss-starter"
 }
