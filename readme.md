@@ -17,6 +17,6 @@ npm install
 npm run electron-dev
 ```
 
-or one of the other npm scripts, see package.json.
+or one of the other node scripts, see package.json.
 
 Happy electron tailwind svelting! 😎
